@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 4rem; }
+
+nav {
+  display: flex; }
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto; }
+  ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    text-align: center; }
+    ul li a:hover {
+      color: lightgray;
+      font-weight: bold;
+      -webkit-transform: scale(0.5);
+      transform: scale(1.5); }
+
+h1 {
+  color: gray;
+  text-align: center;
+  -webkit-transition: 1s linear;
+  transition: 1s linear; }
+  h1:hover {
+    color: lightgray;
+    font-weight: bold;
+    -webkit-transform: scale(0.5);
+    transform: scale(1.5); }
+
+section .carousel img {
+  height: 30rem; }
+
+main {
+  background-color: black; }
+  main p {
+    margin: 1rem;
+    color: grey; }
+  main .container-fluid {
+    display: flex; }
+    main .container-fluid div {
+      margin: 0 auto; }
+    main .container-fluid img {
+      width: 25rem;
+      height: 25rem;
+      margin: 1rem;
+      -webkit-transition: 0.5s linear;
+      transition: 0.5s linear; }
+      main .container-fluid img:hover {
+        -webkit-transform: scale(0.5);
+        transform: scale(1.2); }
+
+footer {
+  display: flex;
+  background-color: grey;
+  padding: 4rem; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; }
+    footer ul li img {
+      display: flex;
+      margin: 0 auto;
+      width: 5rem;
+      padding: 10px; }
+    footer ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 1rem;
+      text-align: center; }
+      footer ul li a:hover {
+        color: lightgray;
+        font-weight: bold;
+        -webkit-transform: scale(0.5);
+        transform: scale(1.5); }
+
+@media (max-width: 850px) {
+  header {
+    flex-direction: row; }
+    header header img {
+      width: 200px; } }
+
+h1 {
+  width: 100%; }
+
+@media (max-width: 680px) {
+  header {
+    flex-direction: column; }
+    header header img {
+      width: 150px; } }
+
+h1 {
+  width: 100%; }
+
+@media (max-width: 320px) {
+  header {
+    flex-direction: column; }
+    header header img {
+      width: 150px; } }
+
+h1 {
+  width: 100%; }

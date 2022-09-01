@@ -1,0 +1,50 @@
+h1{
+    color: gray;
+    text-align: center;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    &:hover{
+        color: lightgray;
+        font-weight: bold;
+        -webkit-transform: scale(.5);
+        transform: scale(1.5);
+    }
+}
+
+section{
+    .carousel{
+                img{
+                    height: 30rem;                    
+                }
+        
+    }
+}
+
+main{
+    background-color: black;
+     p{
+       margin: 1rem;
+       color: grey;
+       
+       }
+       .container-fluid{
+                 display: flex;
+                 div{
+                    margin: 0 auto;
+                 }
+                    img{
+                    width: 25rem;
+                    height: 25rem;
+                    margin: 1rem;
+                    -webkit-transition: 0.5s linear;
+                    transition: 0.5s linear;
+                    &:hover{
+                        -webkit-transform: scale(.5);
+                        transform: scale(1.2);
+                    }
+                    }
+                }
+}
+
+
+

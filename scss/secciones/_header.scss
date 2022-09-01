@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 4rem;
+    }
+    nav{
+        display: flex;
+    }
+    ul{
+        list-style: none;
+        display: flex;      
+        flex-direction: row;
+        margin: 0 auto;
+
+        li{
+           a{
+            text-decoration: none;
+            color: black;
+            padding: 1rem;
+            text-align: center;
+            &:hover{ 
+                color:lightgray;
+                font-weight: bold;
+                -webkit-transform: scale(.5);
+                transform: scale(1.5);
+            }
+            }    
+        }
+    }
